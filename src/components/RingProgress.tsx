@@ -66,7 +66,16 @@ const RingProgress = ({
         {/* Foreground  */}
         <AnimatedCircle {...circleDefaultProps} animatedProps={animatedProps} />
       </SVG>
-      <AntDesign name="arrowright" size={strokeWidth* 0.8} color="black" style={{position: 'absolute', alignSelf: "center", top:strokeWidth * 0.1}} />
+      <AntDesign
+        name="arrowright"
+        size={strokeWidth * 0.8}
+        color="black"
+        style={{
+          position: "absolute",
+          alignSelf: "center",
+          top: strokeWidth * 0.1,
+        }}
+      />
     </View>
   );
 };
